@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - DOMSZN | Premium Streetwear</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>DOMSZN</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html" class="cart-link">Cart <span id="cart-count">0</span></a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Shop Header -->
+    <section class="shop-header">
+        <h1>Shop Our Collection</h1>
+        <p>Premium Streetwear for Every Season</p>
+    </section>
+
+    <!-- Filters & Products -->
+    <div class="container">
+        <div class="shop-wrapper">
+            <!-- Filters -->
+            <aside class="filters">
+                <h3>Filter By</h3>
+                <div class="filter-group">
+                    <h4>Category</h4>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="category" value="shirts"> Shirts</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="category" value="hoodies"> Hoodies</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="category" value="pants"> Pants</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="category" value="accessories"> Accessories</label>
+                </div>
+                <div class="filter-group">
+                    <h4>Price Range</h4>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="price" value="0-50"> $0 - $50</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="price" value="50-100"> $50 - $100</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="price" value="100-150"> $100 - $150</label>
+                    <label><input type="checkbox" class="filter-checkbox" data-filter="price" value="150+"> $150+</label>
+                </div>
+            </aside>
+
+            <!-- Products Grid -->
+            <section class="shop-products">
+                <div class="products-grid" id="products-container">
+                    <!-- Products will be loaded here by JavaScript -->
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DOMSZN</h3>
+                    <p>Premium Streetwear for the Season</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@domszn.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DOMSZN. All rights reserved. | Own The Season</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
